@@ -1,0 +1,13 @@
+{
+	"name": "require.async",
+	"version": "0.1.0",
+	"publish": true,
+	"pm": "npm",
+	"main": "require.async.js",
+	"engines": {
+		"node": ">=0.6"
+	},
+	"scripts": {
+		"test": "node test.js"
+	}
+}
