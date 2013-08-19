@@ -3,7 +3,6 @@ require.async
 
 [![Build Status](https://secure.travis-ci.org/pinf/require.js.png)](http://travis-ci.org/pinf/require.js)
 
-
 Background
 ----------
 
