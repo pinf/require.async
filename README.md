@@ -11,7 +11,7 @@ instead of `require("<id>")` to indicate entry into an optional / conditional / 
 
 All plugin loaders for example should be using `require.async` to asynchronously load plugins.
 
-Under the hood, `require.async` just uses the synchronous `require` when run in NodeJS. If however the same code is run
+Under the hood `require.async` just uses the synchronous `require` when run in NodeJS. If however the same code is run
 by a module loading system that natively supports `require.async` you get actual asynchronous code loading.
 
 
