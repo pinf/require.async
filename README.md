@@ -68,9 +68,9 @@ is considered best practice and achieved in different ways by various toolchains
 **All toolchains and runtimes can benefit from `require.async()` used by a developer (instead of `require()`) to indicate
 entry into an OPTIONAL / CONDITIONAL / RARE segment of the program. Programs written in this fashion are more portable.**
 
-The `require.async` method is inspired by [CommonJS](http://wiki.commonjs.org/wiki/Modules/Async/A) and supported by
-the [PINF JavaScript Loader](https://github.com/pinf/pinf-loader-js) which can load code bundles conflict free into
-any modern JavaScript runtime.
+The `require.async` method is inspired by [CommonJS](http://wiki.commonjs.org/wiki/Modules/Async/A) and implemented by
+the [PINF JavaScript Loader](https://github.com/pinf/pinf-loader-js) which can asynchronously load resources
+(including code bundles) conflict free into any modern JavaScript runtime.
 
 
 License
