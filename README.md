@@ -10,7 +10,7 @@ What
 `require.async` is a module that patches the `require` given to your module by the NodeJS module system.
 
 It adds the method `require.async(id, function success(exports), function error(err))` which you can use
-instead of `require("<id>")` to indicate entry into an OPTIONAL / CONDITIONAL / RARE segment of the program.
+instead of `require("<id>")` to indicate entry into an optional / conditional / rare segment of the program.
 
 All plugin loaders for example should be using `require.async` to asynchronously load plugins.
 
