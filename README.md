@@ -4,9 +4,6 @@ require.async
 [![Build Status](https://secure.travis-ci.org/pinf/require.async.png)](https://travis-ci.org/pinf/require.async)
 
 
-What
-----
-
 `require.async` is a module that patches the `require` given to your module by the NodeJS module system.
 
 It adds the method `require.async(id, function success(exports), function error(err))` which you can use
