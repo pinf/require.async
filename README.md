@@ -1,7 +1,7 @@
 require.async
 =============
 
-[![Build Status](https://secure.travis-ci.org/pinf/require.async.png)](http://travis-ci.org/pinf/require.async.js)
+[![Build Status](https://secure.travis-ci.org/pinf/require.async.png)](https://travis-ci.org/pinf/require.async)
 
 
 Background
