@@ -9,5 +9,10 @@
     },
     "scripts": {
         "test": "node test.js"
+    },
+    "config": {
+        "pio.deploy.converter": {
+            "name": "nodejs-lib"
+        }
     }
 }
